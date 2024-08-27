@@ -1,0 +1,12 @@
+{%  import "bootstrap/wtf.html " as wtf %}
+{% macro render_list(tarea) %}
+    {{fontawesome_html()}}
+     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+    <div class="items">
+      <form action=" {{ url_for('editar', id = tarea.id_tarea )}}" method = "post" class="{% if tarea.hecha==true %} button_novisible {% endif %}">
+        <button type ="submit" class = "btn btn-primary btn-block" > Edit
+        </button>
+      </form>
+    </div>
+{% endmacro %}

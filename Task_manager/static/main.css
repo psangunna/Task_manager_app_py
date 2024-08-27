@@ -1,0 +1,129 @@
+body {
+    /* Fallback color for old browsers */
+    background: #E0F7FA; /* Light cyan fallback color */
+
+    /* Gradient for modern browsers */
+    background: -webkit-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For WebKit browsers */
+    background: -moz-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For Firefox */
+    background: -o-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For Opera */
+    background: linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For standard browsers */
+}
+
+.background {
+    /* Fallback color for old browsers */
+    background: #E0F7FA; /* Light cyan fallback color */
+
+    /* Gradient for modern browsers */
+    background: -webkit-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For WebKit browsers */
+    background: -moz-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For Firefox */
+    background: -o-linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For Opera */
+    background: linear-gradient(to right, #E0F7FA, #B2DFDB, #C8E6C9); /* For standard browsers */
+}
+
+.card-header .input-group {
+    margin-bottom: .5rem; /* Adds space below the input group inside card headers */
+}
+
+/*button color*/
+.btn-primary.btn-block {
+    color: #FFFFFF; /* Text color is white */
+    background-color: #FF8C6C; /* Button background color is a soft red-orange */
+    border-color: #FF8C6C; /* Border color matches the background color */
+}
+
+.btn-primary.btn-block:hover {
+    color: #FFFFFF; /* Text color remains white when hovering */
+    background-color: #FF7043; /* Background color becomes a slightly darker red-orange on hover */
+    border-color: #FF7043; /* Border color matches the new background color */
+}
+
+.btn-primary.btn-block:active, .btn-primary.active {
+    color: #FFFFFF; /* Text color remains white when the button is active */
+    background-color: #FF7043; /* Background color stays as the darker red-orange */
+    border-color: #FF7043; /* Border color matches the active background color */
+    box-shadow: 0 3px 5px rgba(255, 87, 34, 0.7); /* Adds a shadow to the button when active, giving a "pressed" look */
+}
+
+.titulo {
+    font-family: 'Permanent Marker', cursive; /* Sets the font of titles to 'Permanent Marker', giving a hand-drawn look */
+}
+
+.tarea_hecha {
+    text-decoration: line-through; /* Strikes through the text, indicating a completed task */
+    color: #cfcfcf; /* Sets the text color to a light grey, further emphasizing completion */
+}
+
+.label_text {
+  color: grey; /* Sets the text color to grey */
+  padding-left: 1rem; /* Adds space to the left of the label text */
+}
+
+.modificar_tarea {
+    contentEditable="true"; /* Allows the content to be edited by the user, making the element like an editable input */
+}
+
+.button_novisible {
+  visibility: hidden; /* Hides the button from view, but it still takes up space in the layout */
+}
+
+/*Font form*/
+.form-group {
+    padding: 0.3rem; /* Adds padding inside form group elements for spacing */
+}
+
+.control-label {
+    color: grey; /* Sets the label text color to grey */
+}
+
+input[type="submit"] {
+    margin: 0.5rem; /* Adds margin around the submit button for spacing */
+}
+
+input[type="submit"].btn-danger {
+     background-color: #FF8C6C; /* Sets the background color of the danger submit button to soft red-orange */
+     border: #FF8C6C; /* Matches the border color to the background color */
+}
+
+input[type="submit"].btn-danger:hover {
+    background-color: #FF7043; /* Changes the background color to a darker red-orange on hover */
+    border: #FF7043; /* Matches the border color to the new background color on hover */
+}
+
+input[type="submit"].btn-danger:active {
+     background-color: #FF7043; /* Keeps the background color dark when the button is active */
+     border: #FF7043; /* Matches the border color to the background when the button is active */
+     box-shadow:  0 3px 5px rgba(255, 87, 34, 0.7); /* Adds a shadow when the button is pressed, making it appear pressed */
+}
+
+
+/*Font form*/
+.form-group {
+    padding: 0.3rem;
+}
+.control-label {
+    color: grey;
+}
+
+input[type="submit"] {
+    margin: 0.5rem;
+}
+
+
+input[type="submit"].btn-danger {
+     background-color: #FF8C6C;
+     border:#FF8C6C
+}
+
+input[type="submit"].btn-danger:hover {
+    background-color: #FF7043;
+    border:#FF7043;;
+}
+
+input[type="submit"].btn-danger:active {
+     background-color: #FF7043;
+     border: #FF7043;
+     box-shadow:  0 3px 5px rgba(255, 87, 34, 0.7);
+
+
+
+
