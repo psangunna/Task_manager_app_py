@@ -45,7 +45,11 @@ body {
 }
 
 .titulo {
-    font-family: 'Permanent Marker', cursive; /* Sets the font of titles to 'Permanent Marker', giving a hand-drawn look */
+     font-family: "Nerko One", system-ui; /* Sets the font of titles */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 .tarea_hecha {
