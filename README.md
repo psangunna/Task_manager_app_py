@@ -7,6 +7,7 @@ Web application with a database connection using Flask as a framework.
   - [Functionality](#func)  
   - [Database](#bbdd)    
 - [Tech stack](#stack)
+- [Installation and Setup](#install)
 
 ## _Description_ <a name="description"></a>
 This project is a simple web application to manage tasks, developed as a learning exercise for building apps connected to a database. The task manager allows users to perform basic operations on a list of tasks, such as creating, editing, marking as completed, and deleting tasks.  
@@ -66,3 +67,34 @@ The application uses SQLite to store tasks. The database includes the following 
   - Jetbrains Pycharm Community
 - Virtual Environment (for development):
   - virtualenv: Creates Python virtual environments.
+
+## _Installation and Setup_<a name="install"></a>
+__1.__ Clone the repository  
+
+__2.__ Create and activate a virtual environment:  
+`` python -m venv venv   ``
+- On Linux/Mac:  
+`` 
+source venv/bin/activate  ``
+
+- On Windows (cmd):  
+`` 
+venv\Scripts\activate   ``
+
+__3.__ Install dependencies:  
+
+`` pip install -r requirements.txt  ``
+   
+__4.__ Run the application:
+Set the FLASK_APP environment variable and run the application:  
+- On Linux/Mac:  
+`` 
+export FLASK_APP=main.py
+flask run  ``
+
+- On Windows (cmd):  
+`` 
+set FLASK_APP=main.py
+flask run   ``
+
+__5.__ Access the application at http://127.0.0.1:5000/ in your browser.
