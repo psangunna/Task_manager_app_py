@@ -4,8 +4,8 @@ Web application with a database connection using Flask as a framework.
 - [Description](#description)
 - [Features](#goal)
 - [Project Features](#features)
-  -[Functionality](#func)
-  -[Database](#bbdd) 
+  - [Functionality](#func)  
+  - [Database](#bbdd)    
 - [Tech stack](#stack)
 
 ## _Description_ <a name="description"></a>
