@@ -1,6 +1,6 @@
 # Task manager app
 Web application with a database connection using Flask as a framework.
-# Index
+# _Index_
 - [Description](#description)
 - [Features](#goal)
 - [Project Features](#features)
