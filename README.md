@@ -13,6 +13,7 @@ Web application with a database connection using Flask as a framework.
 This project is a simple web application to manage tasks, developed as a learning exercise for building apps connected to a database. The task manager allows users to perform basic operations on a list of tasks, such as creating, editing, marking as completed, and deleting tasks. 
 
 <img width="952" alt="2024-09-14_15h31_35" src="https://github.com/user-attachments/assets/c1832461-d5b9-44a7-8a9a-31e74fbd752d">
+<img width="954" alt="2024-09-14_15h33_56" src="https://github.com/user-attachments/assets/c51a281d-bd7b-4693-89d7-24a825337112">
 
 ## _Goal_ <a name="goal"></a>
 The goal of the this projectis to apply concepts learned about web app development, database management, and the use of frameworks and libraries like Flask, SQLAlchemy, Bootstrap, and others.
